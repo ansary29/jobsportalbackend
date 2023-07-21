@@ -3,7 +3,7 @@ dbConnect()
 async function dbConnect(){
 
      try {
-         await mongoose.connect('mongo  uri' , 
+         await mongoose.connect('mongodb+srv://ansary29:moham29@myproject.12hak.mongodb.net/jobsportal?retryWrites=true&w=majority' , 
          {useNewUrlParser : true});
          console.log('Mongo DB Connection success')
      } catch (error) {
